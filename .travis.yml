@@ -16,9 +16,6 @@ script:
 - docker-compose -H $DOCKER_HOST up 
 after_success:
 - docker ps
-cache:
-  directories:
-  - "$HOME/.m2"
 env:
   global:
   - secure: ODXiRWkgGvAkler8MJeCk35Dm1i/rwO5OICSFNmpzRH/aKJM0kz2pC0oeg5G+v9SeU5Vy6tBd8U89PZffkqGLlu+Ur0p8PpB4y6hwf9GohtyRLkv5SQencO+kpyK0c6eauAqxmYqsveDXqr9DBvkL6EpfLKimhZ+Uc3Zv2+V23UcAOG0F1dnERVZDNEILnFZjrjg9zV0lQ5fXQmbPFlutBdRGj6CO1c7zDrrgHZeBBH2ZgdeJqaCdz5v28ZR4ukrmf9gMzX1WlNTRT4XSrhUGKbkpBDaAJb6TS5KevFDu+Nf6kBJvUlzgDg8ymaKiVxMq1//yhfY8okuJGQFW/NJ/0npV8atyrdcKcI6EQZSy4vvIB5gUqDw5+kwEDiqCdRtP5dBOYB8OG1ShUbnzlyl2Kkx6/uXchyNk+OlOdG0P+6ODaVPfEkCxcqMvksq13pm6apjMWVY+Cm4DHG9V0/jr1aAYVchlNOtofguAs5D9L6QCex+hPIqhUZL5WXmIzwtQ3T35D+vmti3CAy0VgwPOO4HNp5BWOU3zh9N+hYxBllM+hLEn+KahQb6xW1Gy1yR9BCVgTi184Lm1O2e+i/gi3+bxwKpgo2+v2fZ44/C4538Mi1huYmWViEGb2+HFoP1lhve3eJvCACD9giMqAb4F8Gq1BFf8YsaamXGGHM2r+Q=
